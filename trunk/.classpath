@@ -2,5 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="/home/elsupergomez/Proyectos/paturusito/libs/sqlitejdbc-v053.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/elsupergomez/Proyectos/paturusito/libs/tango-icon-theme-0.8.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
