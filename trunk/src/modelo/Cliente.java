@@ -1,21 +1,18 @@
 package modelo;
 
 public class Cliente {
-	String nombre;
-	String apellido;
-	String nombreDeFantasia;
-	String direccion;
-	String categoria;
-	String ciudad;
-	String telefonos;
-	String mail;
-	String observaciones;
-	public String getNombre() {
-		return nombre;
-	}
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
+	private Integer idCliente;
+	private String nombre;
+	private String apellido;
+	private String nombreDeFantasia;
+	private String direccion;
+	private String categoria;
+	private String ciudad;
+	private String telefonos;
+	private String mail;
+	private String observaciones;
+	
+	// Getters And Setters
 	public String getApellido() {
 		return apellido;
 	}
@@ -64,12 +61,21 @@ public class Cliente {
 	public void setObservaciones(String observaciones) {
 		this.observaciones = observaciones;
 	}
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+	public Integer getIdCliente() {
+		return idCliente;
+	}
 
+	public void setIdCliente(Integer idCliente) {
+		this.idCliente = idCliente;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
 }
